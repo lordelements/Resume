@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --text-color: #FFF;
+    --text-color2: #1E2939;
+    --bg-color: #435B66;
+    --container-bg-color: #FFF;
+    --font-style: San-Serif;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 82.4375rem;
+    flex-shrink: 0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 50rem;
+    color: var(--text-color);
+    background: var(--container-bg-color);
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+    font-style: var(--font-style);
+    margin: 5px auto;
+}
+.container .personal-info{
+    width: 100%;
+    height: 82.4375rem;
+    max-width: 50rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    text-align: justify;
+    font-weight: 300;
+    margin: 5px auto;
+    line-height: 1.5rem;
+
+}
+
+.title {
+    font-size: 1.375rem;
+    line-height: 20px;
+    margin: 20px 25px;
+    font-size: 1.375rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.container .personal-infos{
+    width: 100%;
+    height: 100vh;
+    max-width: 50rem;
+    color: var(--text-color2);
+    background: var(--container-bg-color);
+    text-align: justify;
+    font-weight: 300;
+    margin: 20px 25px;
+}
+.container .personal-infos .title{
+    color: #000;
+    font-size: 1.375rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.container .profile-name {
+    text-align: justify;
+    margin: 20px 25px;
+    font-weight: 700;
+}
+.container article p {
+    text-align: justify;
+    margin: 8px 25px;
+    color: #595959;
+    font-size: 0.875rem;
+    font-family: Montserrat;
+    line-height: 1.5rem;
+}
+.container h3 {
+    text-align: justify;
+    margin: 20px 25px;
+    color: #000;
+    font-size: 0.875rem;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.container .date {
+    text-align: justify;
+    margin: 20px 25px;
+    color: #A8A8A8;
+    font-size: 0.75rem;
+    font-family: Montserrat;
+}
+.container span {
+    color: #FB6D3A;
+}
+ h2{
+    font-size: 0.800rem;
+    line-height: 1.5rem;
+    margin: 20px 25px;
+}
+.profile img{
+    width: 100%;
+    max-width: 50rem;
+    height: 22.125rem;
+    flex-shrink: 0;
+}
