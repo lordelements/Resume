@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <div class="container">
+        <section class="personal-info">
+            <div class="profile">
+                <img src="self.png" alt="">
+            </div>
+            <div class="contacts">
+                <h1 class="title">Contacts</h1>
+                <h2>C: 09187224851</h2>
+                <h2>E: andrianelemento@gmail.com</h2>
+            </div>
+            
+            <div class="tech-skills">
+                <h1 class="title">Tech Skills</h1>
+                <h2><span>-</span> HTML5</h2>
+                <h2><span>-</span> CSS</h2>
+                <h2><span>-</span> Javascript</h2>
+                <h2><span>-</span> PHP5</h2>
+                <h2><span>-</span> MYSQL</h2>
+                <h2><span>-</span> GIT</h2>
+            </div>
+           
+            <div class="soft-skills">
+                <h1 class="title">Soft Skills</h1>
+                <h2><span>-</span> TeamWork</h2>
+            </div>
+        </section>
+
+        <section class="personal-infos">
+            <div class="profile">
+                <h3>Front-End Developer</h3>
+                <h1 class="profile-name">Andrian Elemento O.</h1>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Similique vitae soluta explicabo omnis ipsum, quisquam 
+                        atque asperiores quos fugiat doloribus voluptate maxime fugit illo 
+                        repellat esse non distinctio voluptates molestias?</p>
+                </article>
+            </div>
+            <div class="projects">
+               <article>
+                <h1 class="title">Projects</h1>
+                <p>1. https://github.com/lordelements/signup_signin</p>
+                <p>2. ahttps://github.com/lordelements/elemento_personal_website</p>
+                <p>3. https://github.com/lordelements/Realtime-Chat-App</p>
+                <p>4. https://github.com/lordelements/elements-personal-portfolio</p>
+                <p>5. https://github.com/lordelements/learning-resource-app</p>
+                <p>6. https://github.com/lordelements/learning-resource-app</p>
+               </article>
+            </div>
+            
+            <div class="work-experience">
+                <h1 class="title">Work Experience</h1>
+                <h3>Front-End Developer <span>Freelance </span></h3>
+                <p class="date">September 2019 - up to now   |   Country</p>
+                <article class="sub-title">
+                    <p><span>. </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p><span>. </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p><span>. </span>Risus commodo viverra maecenas.</p>
+                    <p><span>. </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                </article>
+            </div>
+            
+            <div class="tech-skills">
+                <h1 class="title">Manager <span>Glory New</span></h1>
+                <p class="date">March 2015 - October 2018   |   Country</p>
+                <article class="sub-title">
+                    <p><span>. </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <p><span>. </span>Quis ipsum suspendisse ultrices gravida.</p>
+                    <p><span>. </span>Risus commodo viverra maecenas. </p>
+                </article>
+            </div>
+            
+            <div class="education">
+                <h1 class="title">Education</h1>
+                <h3><span>National University</span></h3>
+                <h3>Management</h3>
+                <p class="date">March 2015 - October 2018   |   Country</p>
+                <article class="sub-title">
+                    <p><span>. </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <p><span>. </span>Quis ipsum suspendisse ultrices gravida.</p>
+                    <p><span>. </span>Risus commodo viverra maecenas. </p>
+                </article>
+            </div>
+
+        </section>
+
+       
+    </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        :root{
+            --text-color: #FFF;
+            --text-color2: #1E2939;
+            --bg-color: #435B66;
+            --container-bg-color: #FFF;
+            --font-style: San-Serif;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: 82.4375rem;
+            flex-shrink: 0;
+            font-family: 'Montserrat', sans-serif;
+            max-width: 50rem;
+            color: var(--text-color);
+            background: var(--container-bg-color);
+            box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+            font-style: var(--font-style);
+            margin: 5px auto;
+        }
+        .container .personal-info{
+            width: 100%;
+            height: 82.4375rem;
+            max-width: 50rem;
+            color: var(--text-color);
+            background: var(--bg-color);
+            text-align: justify;
+            font-weight: 300;
+            margin: 5px auto;
+            line-height: 1.5rem;
+
+        }
+       
+        .title {
+            font-size: 1.375rem;
+            line-height: 20px;
+            margin: 20px 25px;
+            font-size: 1.375rem;
+            font-family: Montserrat;
+            font-weight: 700;
+        }
+        .container .personal-infos{
+            width: 100%;
+            height: 100vh;
+            max-width: 50rem;
+            color: var(--text-color2);
+            background: var(--container-bg-color);
+            text-align: justify;
+            font-weight: 300;
+            margin: 20px 25px;
+        }
+        .container .personal-infos .title{
+            color: #000;
+            font-size: 1.375rem;
+            font-family: Montserrat;
+            font-weight: 700;
+        }
+        .container .profile-name {
+            text-align: justify;
+            margin: 20px 25px;
+            font-weight: 700;
+       }
+        .container article p {
+            text-align: justify;
+            margin: 8px 25px;
+            color: #595959;
+            font-size: 0.875rem;
+            font-family: Montserrat;
+            line-height: 1.5rem;
+       }
+        .container h3 {
+            text-align: justify;
+            margin: 20px 25px;
+            color: #000;
+            font-size: 0.875rem;
+            font-family: Montserrat;
+            font-weight: 700;
+       }
+        .container .date {
+            text-align: justify;
+            margin: 20px 25px;
+            color: #A8A8A8;
+            font-size: 0.75rem;
+            font-family: Montserrat;
+       }
+        .container span {
+            color: #FB6D3A;
+       }
+         h2{
+            font-size: 0.800rem;
+            line-height: 1.5rem;
+            margin: 20px 25px;
+        }
+        .profile img{
+            width: 100%;
+            max-width: 50rem;
+            height: 22.125rem;
+            flex-shrink: 0;
+        }
+
+    </style>
+</body>
+</html>
